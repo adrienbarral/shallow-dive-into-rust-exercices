@@ -43,6 +43,18 @@ name = "ex4"
 version = "0.1.0"
 
 [[package]]
+name = "ex5"
+version = "0.1.0"
+
+[[package]]
+name = "ex5_1"
+version = "0.1.0"
+
+[[package]]
+name = "ex6"
+version = "0.1.0"
+
+[[package]]
 name = "num-traits"
 version = "0.2.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"

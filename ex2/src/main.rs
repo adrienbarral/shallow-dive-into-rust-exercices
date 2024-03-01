@@ -9,6 +9,14 @@ enum Velocity {
     MeterPerSeconds(f32),
 }
 
+fn convert_to_meter_per_seconds(vel: Velocity) -> f32 {
+    return match vel {
+        Velocity::MilesPerHours(v) => v * MPH_TO_MPS,
+        Velocity::KiloMetersPerHours(v) => v * KMPH_TO_MPS,
+        Velocity::Knot(v) => v * KNOT_TO_MPS,
+        Velocity::MeterPerSeconds(v) => v,
+    };
+}
 
 fn main() {}
 
