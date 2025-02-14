@@ -12,14 +12,12 @@ fn main() {
 
     say_hello(&first_name);
 
-    // Exercice : Uncomment this and make this program compile
-
     println!("Enter your Given Name : ");
     let given_name: String = text_io::read!("{}\n");
-
-    let full_name = get_full_name(&first_name, &given_name);
-
-    println!("Nice to meet you {}", full_name);
+    
+    // Exercice : Uncomment this and make this program compile
+    // let full_name = get_full_name(???);
+    // println!("Nice to meet you {}", full_name);
 }
 
 #[cfg(test)]
