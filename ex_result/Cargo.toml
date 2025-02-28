@@ -1,0 +1,9 @@
+[package]
+name = "ex_result"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+image = {version  = "0.24", features=["png"]}

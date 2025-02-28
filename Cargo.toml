@@ -1,3 +1,3 @@
 [workspace]
 
-members = ["ex1", "ex2", "ex3", "ex4", "ex5", "ex5_1", "ex6", "ex7", "ex8"]
+members = ["ex1", "ex2", "ex3", "ex4", "ex5", "ex5_1", "ex6", "ex7", "ex8", "ex_result"]
