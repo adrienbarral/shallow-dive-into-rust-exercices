@@ -19,7 +19,7 @@ fn main() -> Result<()> {
     // In this case, you can return an error thanks to the bail! macro (https://docs.rs/anyhow/latest/anyhow/index.html)
 
     
-    //
+    // You can create a Path from a String, thanks to : Path::new(&src_file)
 
     Ok(())
 }
